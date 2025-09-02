@@ -3,7 +3,7 @@
   "imports": {
     "@luca/cases": "jsr:@luca/flag@^1.0.0",
     "cowsay": "npm:cowsay@^1.3.0",
-    "fs": "https://deno.land/std@0.223.0/fs/mod.ts",
+    "fs": "https://deno.land/std@0.224.0/fs/mod.ts",
     "chalk": "npm:chalk@^4",
     "react": "npm:react",
     "assert": "jsr:@std/assert",
