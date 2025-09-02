@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "express": "4.17.0",
+    "express": "4.21.2",
     "mongoose": "5.10.9",
     "vite": "npm:rolldown-vite@latest"
   }
