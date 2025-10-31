@@ -1,14 +1,9 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@fresh/init@2.0.0-alpha.38": "2.0.0-alpha.38",
     "jsr:@luca/flag@1": "1.0.1",
     "jsr:@std/assert@*": "1.0.13",
-    "jsr:@std/cli@^1.0.19": "1.0.19",
-    "jsr:@std/fmt@^1.0.7": "1.0.8",
-    "jsr:@std/internal@^1.0.6": "1.0.10",
-    "jsr:@std/internal@^1.0.9": "1.0.10",
-    "jsr:@std/path@1": "1.1.1",
+    "jsr:@std/internal@^1.0.6": "1.0.12",
     "npm:@types/react@*": "19.1.12",
     "npm:chalk@4": "4.1.2",
     "npm:cowsay@^1.3.0": "1.6.0",
@@ -19,37 +14,17 @@
     "npm:vite@*": "7.1.3_picomatch@4.0.3"
   },
   "jsr": {
-    "@fresh/init@2.0.0-alpha.38": {
-      "integrity": "0caffa52c04830e08ab5b00855d1eac535e35d51e1d1aae4e066581fad3e952c",
-      "dependencies": [
-        "jsr:@std/cli",
-        "jsr:@std/fmt",
-        "jsr:@std/path"
-      ]
-    },
     "@luca/flag@1.0.1": {
       "integrity": "dce7eb4159b1bdb1606fe05c2e5388dcff5ae3b0b84184b934bc623143742408"
     },
     "@std/assert@1.0.13": {
       "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
       "dependencies": [
-        "jsr:@std/internal@^1.0.6"
+        "jsr:@std/internal"
       ]
     },
-    "@std/cli@1.0.19": {
-      "integrity": "b3601a54891f89f3f738023af11960c4e6f7a45dc76cde39a6861124cba79e88"
-    },
-    "@std/fmt@1.0.8": {
-      "integrity": "71e1fc498787e4434d213647a6e43e794af4fd393ef8f52062246e06f7e372b7"
-    },
-    "@std/internal@1.0.10": {
-      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
-    },
-    "@std/path@1.1.1": {
-      "integrity": "fe00026bd3a7e6a27f73709b83c607798be40e20c81dde655ce34052fd82ec76",
-      "dependencies": [
-        "jsr:@std/internal@^1.0.9"
-      ]
+    "@std/internal@1.0.12": {
+      "integrity": "972a634fd5bc34b242024402972cd5143eac68d8dffaca5eaa4dba30ce17b027"
     }
   },
   "npm": {
@@ -1317,7 +1292,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@fresh/init@2.0.0-alpha.38",
+      "jsr:@fresh/init@2.2.2",
       "jsr:@luca/flag@1",
       "jsr:@std/assert@*",
       "npm:@types/react@*",
